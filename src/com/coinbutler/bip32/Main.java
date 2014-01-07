@@ -1,19 +1,16 @@
 package com.coinbutler.bip32;
 
 import com.google.bitcoin.core.*;
-import com.google.bitcoin.core.Wallet.SendRequest;
 import com.google.bitcoin.crypto.KeyCrypterException;
 import com.google.bitcoin.crypto.TransactionSignature;
 import com.google.bitcoin.kits.WalletAppKit;
 import com.google.bitcoin.params.TestNet3Params;
-import com.google.bitcoin.script.Script;
 import com.google.bitcoin.script.ScriptBuilder;
 import com.google.bitcoin.store.BlockStoreException;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.awt.*;
 import java.io.File;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
