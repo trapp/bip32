@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.coinbutler</groupId>
+    <artifactId>bip32</artifactId>
+    <version>0.0.1</version>
+
+    <name>bip32</name>
+    <description>bip32 test</description>
+    <!-- Depend on bitcoinj -->
+    <repositories>
+        <repository>
+            <id>bitcoinj</id>
+            <url>http://distribution.bitcoinj.googlecode.com/git/releases/</url>
+        </repository>
+    </repositories>
+
+
+    <dependencies>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-jdk14</artifactId>
+            <version>1.6.4</version>
+        </dependency>
+        <dependency>
+            <groupId>org.bouncycastle</groupId>
+            <artifactId>bcprov-jdk15on</artifactId>
+            <version>1.49</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google</groupId>
+            <artifactId>bitcoinj</artifactId>
+            <version>0.10.3</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
+
+
+</project>
